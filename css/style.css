@@ -157,3 +157,101 @@ footer {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
+
+.text-description {
+    font-family:"Exo",sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #0e0707;
+    text-align: justify;
+    letter-spacing: 2px;
+    
+}
+
+.event-request {
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-left: 20px;
+}
+
+/*------------------------------Home*/
+
+.member-photo {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    min-height:  100px;
+}
+
+.member-description {
+    padding: 20px 30px;
+    height: 190px;
+    vertical-align: middle;
+    
+}
+
+p {
+    vertical-align: middle;
+}
+
+
+
+p .center {
+  text-align: center;  
+   
+}
+
+/*------------------------------Events*/
+
+.request {
+    padding: 20px 25px;
+}
+
+.event-list {
+    text-align: center;
+}
+
+.invia {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.condition {
+    padding-top: 30px;
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 8px;
+    font-weight: 200;
+    font-family: "Exo", sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.title-events {
+    font-size: 30px;
+    font-family: "Exo", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 1.5px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+/*------------------------------hover*/
+
+.video {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.video-title {
+    padding-top: 35px;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-family: "Exo" , sans-serif;
+    text-align: center;
+}

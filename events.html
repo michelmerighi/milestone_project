@@ -19,16 +19,51 @@
             </a>
         </div>
         <div class="row">
-            <ul id="nav" class="list-inline clearfix">
-                <li class="col-xs-6 col-sm-3 menu-item ui-bgcolor-member  uppercase"><a href="home.html" class="hvr-sweep-to-bottom"><span>member</span></a> </li>
-                <li class="col-xs-6 col-sm-3 menu-item ui-bgcolor-photos hvr-fade uppercase"><a href="video.html"><span>videos/photos</span></a> </li>
-                <li class="col-xs-6 col-sm-3 menu-item ui-bgcolor-track hvr-fade uppercase"><a href="tracks.html"><span>Track</span></a> </li>
-                <li class="col-xs-6 col-sm-3 menu-item ui-bgcolor-events hvr-fade uppercase"><a href="events.html"><span>events</span></a> </li>
+            <ul id="nav" class="list-inline clearfix padding-menu">
+                <li class="col-xs-6 col-sm-3 menu-item ui-bgcolor-member  uppercase hover-menu"><a href="home.html"><span>member</span></a> </li>
+                <li class="col-xs-6 col-sm-3 menu-item ui-bgcolor-photos uppercase hover-menu"><a href="video.html"><span>videos/photos</span></a> </li>
+                <li class="col-xs-6 col-sm-3 menu-item ui-bgcolor-track uppercase hover-menu"><a href="tracks.html"><span>Track</span></a> </li>
+                <li class="col-xs-6 col-sm-3 menu-item ui-bgcolor-events uppercase hover-menu"><a href="events.html"><span>events</span></a> </li>
             </ul>
         </div>
 
     </header>
-    <section>
+    <section class="container-fluid">
+        <div class="row">
+            <p class="title-events">Follow us in our next Events!</p>
+        </div>
+        <div class="row">
+            <div class="list-group event-list">
+                <p class="list-group-item date">31-10-2018</p>
+                <p class="list-group-item where">The Monkees live in London</p>
+                <p class="list-group-item date">07-11-2018</p>
+                <p class="list-group-item where">The Monkees live in Berlin</p>
+                <p class="list-group-item date">14-11-2018</p>
+                <p class="list-group-item where">The Monkees live in Lisbona</p>
+                <p class="list-group-item date">25-11-2018</p>
+                <p class="list-group-item where">The Monkees live in Madrid</p>
+            </div>
+        <div class="row">
+            <p class="event-request">If you want us at your birthday party or at your events, don't be shy just let us know.</p>
+            <form>
+                <div class="form-group request">
+                <label for="enter-the-date" >Enter the date </label>
+                <input type="date" >
+                </div>
+                <div class="form-group request">
+                <label for="enter-the-place">Digit the place where you like it'll be</label>
+                <input type="place" class="form-control" placeholder="place">
+                </div>
+                <div class="form-group request">
+                <label for="enter-the-description">Digit a short description about the theme of the party/event</label>
+                <textarea class="form-control" rows="10" placeholder="insert a description"></textarea>
+                <p class="invia"><button type="button" class="btn btn-primary btn-lg ">Submit</button></p>
+                <p class="condition">We promise we'll let you know as soon as we can if we are available for the event you request</p>
+                </div>
+            </form>
+        </div>    
+        </div>
+
 
     </section>
     <footer class="container-fluid ft-bar">
