@@ -1,12 +1,9 @@
 # Band Project
 
 In this project i want to create a website for a famous rock band. 
-I have decided to keep it simple so that people do not have to waste time on looking for something as everything is divided in different sections.
-I have created four main sections: the first one describes to member of the band, the second one provides pictures and videos, the third one contains traks of songs alphabetically ordered, the last section gives informatuion about future events and provides fans with an opportunity to invite the band at their events. 
+I have decided to keep it simple so that people do not have to waste time on looking for something as everything is clearly divided in different sections.
+I have created four main sections indeed: the first one describes to member of the band, the second one provides pictures and videos, the third one contains tracks of songs alphabetically ordered, the last section gives information about future events and provides fans with an opportunity to invite the band at their events. 
 
-
-
-Essentially, this part is your sales pitch.
 
 UX (User Experience)
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
