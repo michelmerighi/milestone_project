@@ -13,16 +13,16 @@
 <body>
     <header class="container-fluid">
         <div class="row">
-            <a href="home.html">
+            <a href="index.html">
                 <div class="col-sm-12 col-md-12 logo-home">
                 </div>
             </a>
         </div>
         <div class="row">
             <ul id="nav" class="list-inline clearfix padding-menu">
-                <li class="col-xs-6 col-sm-3 menu-item ui-bgcolor-member  uppercase hover-menu"><a href="home.html"><span>member</span></a> </li>
+                <li class="col-xs-6 col-sm-3 menu-item ui-bgcolor-member  uppercase hover-menu"><a href="index.html"><span>members</span></a> </li>
                 <li class="col-xs-6 col-sm-3 menu-item ui-bgcolor-photos uppercase hover-menu"><a href="video.html"><span>videos/photos</span></a> </li>
-                <li class="col-xs-6 col-sm-3 menu-item ui-bgcolor-track uppercase hover-menu"><a href="tracks.html"><span>Track</span></a> </li>
+                <li class="col-xs-6 col-sm-3 menu-item ui-bgcolor-track uppercase hover-menu"><a href="tracks.html"><span>Tracks</span></a> </li>
                 <li class="col-xs-6 col-sm-3 menu-item ui-bgcolor-events uppercase hover-menu"><a href="events.html"><span>events</span></a> </li>
             </ul>
         </div>
@@ -30,7 +30,7 @@
     </header>
     <section class="container-fluid">
         <div class="row">
-            <p class="title-events">Follow us in our next Events!</p>
+            <p class="title-events">Follow us on our next Events!</p>
         </div>
         <div class="row">
             <div class="list-group event-list">
@@ -48,15 +48,15 @@
             <form>
                 <div class="form-group request">
                 <label for="enter-the-date" >Enter the date </label>
-                <input type="date" >
+                <input type="date" required/ >
                 </div>
                 <div class="form-group request">
-                <label for="enter-the-place">Digit the place where you like it'll be</label>
-                <input type="place" class="form-control" placeholder="place">
+                <label for="enter-the-place">Digit the place where you would like us to come</label>
+                <input type="place" class="form-control" placeholder="place" required/>
                 </div>
                 <div class="form-group request">
                 <label for="enter-the-description">Digit a short description about the theme of the party/event</label>
-                <textarea class="form-control" rows="10" placeholder="insert a description"></textarea>
+                <textarea class="form-control" rows="10" placeholder="insert a description" required/></textarea>
                 <p class="invia"><button type="button" class="btn btn-primary btn-lg ">Submit</button></p>
                 <p class="condition">We promise we'll let you know as soon as we can if we are available for the event you request</p>
                 </div>

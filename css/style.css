@@ -100,7 +100,17 @@ header {
     background-color: #596060;
 }
 
+.bgsong1 {
+    background-color: #afb1b5;
+}
 
+.bgsong2 {
+    background-color: #97999e;
+}
+
+.bgvideo-section {
+    background-color: #c2c4c6;
+}
 /*------------------------------footer*/
 
 footer {
@@ -254,4 +264,41 @@ p .center {
     letter-spacing: 2px;
     font-family: "Exo" , sans-serif;
     text-align: center;
+}
+
+/*------------------------------track*/
+.track-audio {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.song-name {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Exo" , sans-serif;
+    text-align: center;
+    padding-top: 15px;
+    letter-spacing: 1.5px;
+}
+
+/*------------------------------section*/
+
+section {
+    margin: 0;
+    padding: 0;
+}
+
+/*------------------------------video-and-picture*/
+.clearfix {
+    padding: 20px 30px;
+    border-top-style: solid;
+    border-top-color: #727475;
+    background-color: #ffffff;
+    text-align: center;
+}
+    
+.img-align {
+    padding: 15px 10px;
+    height:100%;
+    
 }
